@@ -1,0 +1,244 @@
+chatterjeegit1712
+
+csuman1712@gmail.com
+
+
+
+//////////
+
+
+
+suman@ManpreetSingh MINGW64 ~
+$ cd /c
+
+suman@ManpreetSingh MINGW64 /c
+$ cd /D
+
+suman@ManpreetSingh MINGW64 /D
+$ ls
+'$RECYCLE.BIN'/            Git/
+ account-details.txt       hnsfalDB/
+'after effect exercise'/   My_folder/
+ Design_19/               'System Volume Information'/
+ EGPS/                    'The Complete 2019 Web Development Bootcamp'/
+ Final_backup_7may/        work-in-Govt-Psd/
+
+suman@ManpreetSingh MINGW64 /D
+$ cd git
+
+suman@ManpreetSingh MINGW64 /D/git
+$ git config --global user.name "chatterjeegit1712"
+
+suman@ManpreetSingh MINGW64 /D/git
+$ git config --global user.email csuman1712@gmail.com
+
+suman@ManpreetSingh MINGW64 /D/git
+$ git clone https://github.com/chatterjeegit1712/Testgit.git
+Cloning into 'Testgit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+suman@ManpreetSingh MINGW64 /D/git
+$ ls
+Testgit/
+
+suman@ManpreetSingh MINGW64 /D/git
+$ cd Testgit
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ ls
+README.md
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ ls
+README.md  test.txt
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git add test.txt
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git commit -m "1st June" test.txt
+[master eabcc1a] 1st June
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': chatterjeegit1712
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/chatterjeegit1712/Testgit.git/'
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/chatterjeegit1712/Testgit.git
+   d26eb5d..eabcc1a  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git commit -m "1st June 2nd commit" test.txt
+[master 9068cdd] 1st June 2nd commit
+ 1 file changed, 8 insertions(+)
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/chatterjeegit1712/Testgit.git
+   eabcc1a..9068cdd  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+suman@ManpreetSingh MINGW64 ~
+$ cd /c
+
+suman@ManpreetSingh MINGW64 /c
+$ cd /D
+
+suman@ManpreetSingh MINGW64 /D
+$ ls
+'$RECYCLE.BIN'/            Git/
+ account-details.txt       hnsfalDB/
+'after effect exercise'/   My_folder/
+ Design_19/               'System Volume Information'/
+ EGPS/                    'The Complete 2019 Web Development Bootcamp'/
+ Final_backup_7may/        work-in-Govt-Psd/
+
+suman@ManpreetSingh MINGW64 /D
+$ cd git
+
+suman@ManpreetSingh MINGW64 /D/git
+$ git config --global user.name "chatterjeegit1712"
+
+suman@ManpreetSingh MINGW64 /D/git
+$ git config --global user.email csuman1712@gmail.com
+
+suman@ManpreetSingh MINGW64 /D/git
+$ git clone https://github.com/chatterjeegit1712/Testgit.git
+Cloning into 'Testgit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+suman@ManpreetSingh MINGW64 /D/git
+$ ls
+Testgit/
+
+suman@ManpreetSingh MINGW64 /D/git
+$ cd Testgit
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ ls
+README.md
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ ls
+README.md  test.txt
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git add test.txt
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git commit -m "1st June" test.txt
+[master eabcc1a] 1st June
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': chatterjeegit1712
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/chatterjeegit1712/Testgit.git/'
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/chatterjeegit1712/Testgit.git
+   d26eb5d..eabcc1a  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git commit -m "1st June 2nd commit" test.txt
+[master 9068cdd] 1st June 2nd commit
+ 1 file changed, 8 insertions(+)
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/chatterjeegit1712/Testgit.git
+   eabcc1a..9068cdd  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+suman@ManpreetSingh MINGW64 /D/git/Testgit (master)
